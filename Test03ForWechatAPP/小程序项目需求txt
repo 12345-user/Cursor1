@@ -1,17 +1,18 @@
 这是一个库存小程序项目，项目需求如下：
 
 本项目技术栈设计如下：
-1. 商城小程序前端
+1. 仓储小程序前端
    - 开发框架：微信小程序原生框架
+   - 状态管理:微信小程序内置storage
+   - 请求库:微信小程序内置request
 
-2. 商城小程序仓储管理系统（一体化方案）
+2. 仓储小程序仓储管理系统（一体化方案）
    - 开发框架：Node.js + Express
    - 视图模板引擎：EJS
    - UI组件库：Vue.js + Element UI
    - 数据库：mySQL
    - 权限认证：Session + Cookie
-   - 文档：Swagger UI
-   - 构建工具：Webpack
+
 
 3. 前端的后端API服务
    - 开发框架：Node.js + Express

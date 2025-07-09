@@ -1,4 +1,4 @@
-微信小程序前端目录结构：
+仓储小程序前端目录结构：
 
 Test03ForWechatAPP/
 ├── pages/                # 页面目录
@@ -7,14 +7,14 @@ Test03ForWechatAPP/
 │   ├── inbound/          # 入库操作页
 │   ├── outbound/         # 出库操作页
 │   ├── order/            # 订单查询与详情
-│   ├── transaction/      # 流水记录
+│   ├── flow/             # 流水记录
 │   ├── scan/             # 扫码页面
 │   ├── login/            # 登录页面
 │   ├── profile/          # 个人信息页面
-├── utils/                # 工具函数
+├── utils/                # 工具函数与配置（如config.js）
 ├── components/           # 公共组件
 ├── images/               # 图片资源
 ├── app.js                # 小程序主入口
 ├── app.json              # 小程序全局配置
 ├── app.wxss              # 小程序全局样式
-├── sitemap.json          # 小程序站点地图 
+├── project.config.json   # 小程序项目配置 

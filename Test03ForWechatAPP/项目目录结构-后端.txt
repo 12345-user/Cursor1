@@ -1,19 +1,22 @@
-后端API服务目录结构：
+仓储管理系统（API服务）目录结构：
 
 backend/
 ├── app.js                # 主入口
 ├── routes/               # 路由（API接口）
 │   ├── auth.js           # 登录与认证
 │   ├── warehouse.js      # 仓库相关接口
-│   ├── product.js        # 商品相关接口
+│   ├── supplier.js       # 供应商相关接口
+│   ├── inventory.js      # 库存相关接口
 │   ├── inbound.js        # 入库相关接口
 │   ├── outbound.js       # 出库相关接口
-│   ├── order.js          # 订单相关接口
-│   ├── flow.js           # 流水相关接口
+│   ├── productFlow.js    # 商品流水相关接口
+│   ├── log.js            # 操作日志相关接口
 ├── controllers/          # 业务逻辑
 ├── models/               # 数据模型
 ├── middlewares/          # 中间件（如权限校验、日志等）
 ├── utils/                # 工具函数
-├── config/               # 配置文件
+├── config/               # 配置文件（多环境）
 ├── logs/                 # 日志
-├── public/               # 静态资源 
+├── public/               # 静态资源
+├── views/                # EJS模板（如有）
+├── package.json          # 依赖配置 
